@@ -3,23 +3,19 @@
 
 
 ## About Dataset
----
 The dataset contained scores of `51 students` in `12 tests` conducted in a specific time frame (not mentioned in dataset). The dataset has been sourced from [Kaggle](https://www.kaggle.com/datasets/yapwh1208/students-score) under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) liscence.
 
 
 ## Dataset Features
----
 - `Student_ID` : ID of individual students.
 - `Test_1`, `Test_2`..... `Test_12` : Scores of individual students in different tests.
 
 
 ## Cleaning Dataset
----
 The dataset is cleaned, all the test scores are normalized and numeric with no null values.
 
 
 ## Code & Analysis
----
 Libraries used
 ```
 import pandas as pd
